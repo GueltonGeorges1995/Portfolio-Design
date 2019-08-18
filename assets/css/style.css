@@ -10560,4 +10560,32 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: PopLight;
+  src: url("../fonts/Poppins/Poppins-Light.ttf");
+}
+
+@font-face {
+  font-family: PopRegular;
+  src: url("../fonts/Poppins/Poppins-Regular.ttf");
+}
+
+body {
+  font-family: Poplight;
+}
+
+.portfolio {
+  color: white;
+  background: radial-gradient(#2b3760, #0b1023);
+}
 /*# sourceMappingURL=style.css.map */

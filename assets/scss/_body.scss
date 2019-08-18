@@ -1,0 +1,28 @@
+// *******************
+// BODY STYLE
+// *******************
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: PopLight;
+    src: url('../fonts/Poppins/Poppins-Light.ttf');
+}
+
+@font-face{
+    font-family: PopRegular;
+    src: url('../fonts/Poppins/Poppins-Regular.ttf');
+}
+
+body{
+    font-family: Poplight;
+}
+.portfolio{
+    color: white;
+    background: radial-gradient(rgba(43,55,96,1), rgba(11,16,35,1));
+}
