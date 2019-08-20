@@ -2,6 +2,10 @@
 // MEDIA QUERIES
 // *******************
 
+
+// ****
+// IPAD
+// ****
 @media (max-width: 1024px){
     
     // ****
@@ -19,7 +23,7 @@
     }
 
     .hero img {
-        height: 300px;
+        height: 400px;
     }
 
     .details {
@@ -34,5 +38,44 @@
 
     .details h2 {
         font-size: 38px;
+    }
+
+    // ****
+    // Photo Media Queries
+    // ***
+    .story,
+    .my-work {
+        flex-direction: column;
+    }
+    .story-description,
+    .word-description {
+        width: 100%;
+    }
+
+    .work-gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    
+    .profile{
+        padding-top: 30px;
+        text-align: center
+    }
+}
+@media(max-width: 768px){
+    .pages {
+        grid-template-rows: 1fr 1fr;
+    }
+    
+    .hero img {
+        height: 300px;
+    }
+
+    .details h1 {
+        font-size: 38px;
+    }
+
+    .details h2 {
+        font-size: 28px;
     }
 }
