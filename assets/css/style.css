@@ -10795,4 +10795,20 @@ nav {
   font-size: 36px;
   padding-bottom: 30px;
 }
+
+.story-description p, .work-description p {
+  font-size: 20px;
+  padding-bottom: 20px 0px;
+}
+
+.work-gallery {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (200px)[3];
+      grid-template-columns: repeat(3, 200px);
+}
+
+.work-gallery img {
+  width: 100%;
+}
 /*# sourceMappingURL=style.css.map */

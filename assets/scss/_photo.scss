@@ -59,3 +59,21 @@
     font-size: 36px;
     padding-bottom: 30px;
 }
+
+.story-description p, .work-description p {
+    font-size: 20px;
+    padding-bottom: 20px 0px ;
+}
+
+// ****
+// Work Gallery
+// ****
+.work-gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+}
+
+.work-gallery img {
+    width: 100%;
+    
+}
