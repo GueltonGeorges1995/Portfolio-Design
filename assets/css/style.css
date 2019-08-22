@@ -10637,6 +10637,12 @@ nav {
   cursor: pointer;
 }
 
+.hero a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .model-right {
   -webkit-transform: translate(0%, 10%);
           transform: translate(0%, 10%);
@@ -10782,7 +10788,7 @@ nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 90%;
+  width: 80%;
   margin: auto;
   padding: 80px 0px;
 }

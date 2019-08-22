@@ -5,6 +5,12 @@
 // ****
 // Banner style
 // ****
+// .photographer {
+//     color: rgba(43,55,96,1);
+//     color: white;
+//     background: radial-gradient(rgba(43,55,96,1), rgba(11,16,35,1));
+// }
+
 .banner {
     height: 50vh;
     width: 100%;
@@ -46,7 +52,7 @@
 .story,.my-work {
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 80%;
     margin: auto;
     padding: 80px 0px;
 }
