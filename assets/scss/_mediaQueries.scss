@@ -11,6 +11,8 @@
     // ****
     // Index Media Queries
     // ***
+    
+
     .page {
         grid-template-columns: 5% 1fr 5%;
         grid-template-rows: 2fr 1fr;
@@ -48,7 +50,7 @@
         flex-direction: column;
     }
     .story-description,
-    .word-description {
+    .work-description {
         width: 100%;
     }
 
@@ -67,6 +69,14 @@
 // PHONES
 // ****
 @media(max-width: 768px){
+    .profile img {
+        width: 100%;
+    }
+     
+    .work-description {
+        width: 100% !important; 
+    }
+
     .pages {
         grid-template-rows: 1fr 1fr;
     }

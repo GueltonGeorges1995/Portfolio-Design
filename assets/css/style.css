@@ -10733,6 +10733,10 @@ nav {
   opacity: 1;
 }
 
+.active {
+  pointer-events: none;
+}
+
 @-webkit-keyframes dot {
   0% {
     -webkit-transform: scale(2);
@@ -10867,8 +10871,7 @@ nav {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .story-description,
-  .word-description {
+  .story-description, .work-description {
     width: 100%;
   }
   .work-gallery {
@@ -10884,6 +10887,12 @@ nav {
 }
 
 @media (max-width: 768px) {
+  .profile img {
+    width: 100%;
+  }
+  .work-description {
+    width: 100% !important;
+  }
   .pages {
     -ms-grid-rows: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
