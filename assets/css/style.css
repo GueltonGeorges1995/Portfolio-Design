@@ -10906,6 +10906,9 @@ nav {
   .details h2 {
     font-size: 28px;
   }
+  .details p {
+    padding: 20px 0 0 0  !important;
+  }
 }
 
 .nav-open {
